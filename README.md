@@ -12,7 +12,14 @@ For each record it is provided:
 ======================================
 - the subject
 - the activity label
-- the average of each variable for each activity and each subject
+- the average of each variable for each activity and each subject (Each variable is detailed in codeBook.txt)
+
+
+Instructions 1:
+======================================
+To generate the tidy_data.csv
+1. run run_analysis.R
+
 
 The used raw data :
 =========================================
