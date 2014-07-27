@@ -1,0 +1,77 @@
+FeatureSelection
+=================
+
+This analysis get raw data of data collected from the accelerometers from the Samsung Galaxy S smartphone and compute the average of each variable for each activity and each subject. 
+
+The raw data for this analysis comes from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+subject						=	subject id	
+activity					=	activity name
+tbodyaccmeanx				=	average per subject per activity of variable tBodyAcc-mean()-X
+tbodyaccmeany				=	average per subject per activity of variable tBodyAcc-mean()-Y
+tbodyaccmeanz				=	average per subject per activity of variable tBodyAcc-mean()-Z
+tbodyaccstdx				=	average per subject per activity of variable tBodyAcc-std()-X
+tbodyaccstdy				=	average per subject per activity of variable tBodyAcc-std()-Y
+tbodyaccstdz				=	average per subject per activity of variable tBodyAcc-std()-Z
+tgravityaccmeanx			=	average per subject per activity of variable tGravityAcc-mean()-X
+tgravityaccmeany			=	average per subject per activity of variable tGravityAcc-mean()-Y
+tgravityaccmeanz			=	average per subject per activity of variable tGravityAcc-mean()-Z
+tgravityaccstdx				=	average per subject per activity of variable tGravityAcc-std()-X
+tgravityaccstdy				=	average per subject per activity of variable tGravityAcc-std()-Y
+tgravityaccstdz				=	average per subject per activity of variable tGravityAcc-std()-Z
+tbodyaccjerkmeanx			=	average per subject per activity of variable tBodyAccJerk-mean()-X
+tbodyaccjerkmeany			=	average per subject per activity of variable tBodyAccJerk-mean()-Y
+tbodyaccjerkmeanz			=	average per subject per activity of variable tBodyAccJerk-mean()-Z
+tbodyaccjerkstdx			=	average per subject per activity of variable tBodyAccJerk-std()-X
+tbodyaccjerkstdy			=	average per subject per activity of variable tBodyAccJerk-std()-Y
+tbodyaccjerkstdz			=	average per subject per activity of variable tBodyAccJerk-std()-Z
+tbodygyromeanx				=	average per subject per activity of variable tBodyGyro-mean()-X
+tbodygyromeany				=	average per subject per activity of variable tBodyGyro-mean()-Y
+tbodygyromeanz				=	average per subject per activity of variable tBodyGyro-mean()-Z
+tbodygyrostdx				=	average per subject per activity of variable tBodyGyro-std()-X
+tbodygyrostdy				=	average per subject per activity of variable tBodyGyro-std()-Y
+tbodygyrostdz				=	average per subject per activity of variable tBodyGyro-std()-Z
+tbodygyrojerkmeanx			=	average per subject per activity of variable tBodyGyroJerk-mean()-X
+tbodygyrojerkmeany			=	average per subject per activity of variable tBodyGyroJerk-mean()-Y
+tbodygyrojerkmeanz			=	average per subject per activity of variable tBodyGyroJerk-mean()-Z
+tbodygyrojerkstdx			=	average per subject per activity of variable tBodyGyroJerk-std()-X
+tbodygyrojerkstdy			=	average per subject per activity of variable tBodyGyroJerk-std()-Y
+tbodygyrojerkstdz			=	average per subject per activity of variable tBodyGyroJerk-std()-Z
+tbodyaccmagmean				=	average per subject per activity of variable tBodyAccMag-mean()
+tbodyaccmagstd				=	average per subject per activity of variable tBodyAccMag-std()
+tgravityaccmagmean			=	average per subject per activity of variable tGravityAccMag-mean()
+tgravityaccmagstd			=	average per subject per activity of variable tGravityAccMag-std()
+tbodyaccjerkmagmean			=	average per subject per activity of variable tBodyAccJerkMag-mean()
+tbodyaccjerkmagstd			=	average per subject per activity of variable tBodyAccJerkMag-std()
+tbodygyromagmean			=	average per subject per activity of variable tBodyGyroMag-mean()
+tbodygyromagstd				=	average per subject per activity of variable tBodyGyroMag-std()
+tbodygyrojerkmagmean		=	average per subject per activity of variable tBodyGyroJerkMag-mean()
+tbodygyrojerkmagstd			=	average per subject per activity of variable tBodyGyroJerkMag-std()
+fbodyaccmeanx				=	average per subject per activity of variable fBodyAcc-mean()-X
+fbodyaccmeany				=	average per subject per activity of variable fBodyAcc-mean()-Y
+fbodyaccmeanz				=	average per subject per activity of variable fBodyAcc-mean()-Z
+fbodyaccstdx				=	average per subject per activity of variable fBodyAcc-std()-X
+fbodyaccstdy				=	average per subject per activity of variable fBodyAcc-std()-Y
+fbodyaccstdz				=	average per subject per activity of variable fBodyAcc-std()-Z
+fbodyaccjerkmeanx			=	average per subject per activity of variable fBodyAccJerk-mean()-X
+fbodyaccjerkmeany			=	average per subject per activity of variable fBodyAccJerk-mean()-Y
+fbodyaccjerkmeanz			=	average per subject per activity of variable fBodyAccJerk-mean()-Z
+fbodyaccjerkstdx			=	average per subject per activity of variable fBodyAccJerk-std()-X
+fbodyaccjerkstdy			=	average per subject per activity of variable fBodyAccJerk-std()-Y
+fbodyaccjerkstdz			=	average per subject per activity of variable fBodyAccJerk-std()-Z
+fbodygyromeanx				=	average per subject per activity of variable fBodyGyro-mean()-X
+fbodygyromeany				=	average per subject per activity of variable fBodyGyro-mean()-Y
+fbodygyromeanz				=	average per subject per activity of variable fBodyGyro-mean()-Z
+fbodygyrostdx				=	average per subject per activity of variable fBodyGyro-std()-X
+fbodygyrostdy				=	average per subject per activity of variable fBodyGyro-std()-Y
+fbodygyrostdz				=	average per subject per activity of variable fBodyGyro-std()-Z
+fbodyaccmagmean				=	average per subject per activity of variable fBodyAccMag-mean()
+fbodyaccmagstd				=	average per subject per activity of variable fBodyAccMag-std()
+fbodybodyaccjerkmagmean		=	average per subject per activity of variable fBodyBodyAccJerkMag-mean()
+fbodybodyaccjerkmagstd		=	average per subject per activity of variable fBodyBodyAccJerkMag-std()
+fbodybodygyromagmean		=	average per subject per activity of variable fBodyBodyGyroMag-mean()
+fbodybodygyromagstd			=	average per subject per activity of variable fBodyBodyGyroMag-std()
+fbodybodygyrojerkmagmean	=	average per subject per activity of variable fBodyBodyGyroJerkMag-mean()
+fbodybodygyrojerkmagstd		=	average per subject per activity of variable fBodyBodyGyroJerkMag-std()
+
